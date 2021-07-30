@@ -70,9 +70,9 @@ body{
 .btn-outline-light{
     margin-bottom: 15px;
 }
-.banner-img{
+.banner-right{
     margin-top: 40px;
-    width: 600px;
+    width: 120%;
 }
 /* ---------------------subbanner section----------------------------- */
 #subbanner{
@@ -112,7 +112,7 @@ h1{
     padding: 80px 0;
 }
 .col-md-6 img{
-    width: 400px;
+    width: 60%;
     margin: auto;
     background: 50% 50% no-repeat;
 }
