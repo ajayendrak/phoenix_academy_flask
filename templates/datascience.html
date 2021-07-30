@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Data Science{% endblock title%}
+
+
+
+{% block body%}
+
+<section id="subbanner">
+  <div class="container">
+    <div class="row">
+      
+      </div>
+    </div>
+  </div>
+  <img src="{{url_for('static', filename='wave1.png')}}" class="bottom-img">
+</section>
+
+
+
+<section id="course-content">
+  <div class="container my-4">
+    <div class="row">
+    <div class="col-md-12 text-center">
+      <p class="promo-title">Data Science</p>
+        </div>
+      <div class="col-md-12 ">
+      
+      <h4 >Introduction</h4>
+        <p>Build expertise in data manipulation, visualization, predictive analytics, machine learning, and data science. With the skills you learn in a Nanodegree program, you can launch or advance a successful data career. Start acquiring valuable skills right away, create a project portfolio to demonstrate your abilities, and get support from mentors, peers, and experts in the field. We offer five unique programs to support your career goals in the data science field.</p><br>
+
+        <img class="img-responsive center-block" src="{{url_for('static', filename='data_s.png')}}"><br>
+        <h4 >About Course</h4>
+        <p>A data scientist analyzes business data to extract meaningful insights. In other words, a data scientist solves business problems through a series of steps, including:<br>
+        <ul class="list-group">
+        <li class="list-group-item">Ask the right questions to understand the problem</li>
+        <li class="list-group-item">Gather data from multiple sources—enterprise data, public data, etc</li>
+        <li class="list-group-item">Process raw data and convert it into a format suitable for analysis</li>
+        <li class="list-group-item">Feed the data into the analytic system—ML algorithm or a statistical model</li>
+        <li class="list-group-item">Prepare the results and insights to share with the appropriate stakeholders</li>
+        </ul><br>
+        
+        
+        <p>Now we should be aware of some machine learning algorithms which are beneficial in understanding data science clearly.</p>
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock body%}

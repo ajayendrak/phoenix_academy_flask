@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}Cyber Security{% endblock title%}
+
+
+
+{% block body%}
+
+<section id="subbanner">
+  <div class="container">
+    <div class="row">
+      
+      </div>
+    </div>
+  </div>
+  <img src="{{url_for('static', filename='wave1.png')}}" class="bottom-img">
+</section>
+
+
+
+<section id="course-content">
+  <div class="container my-4">
+    <div class="row">
+    <div class="col-md-12 text-center">
+      <p class="promo-title">Cyber Security</p>
+        </div>
+      <div class="col-md-12 ">
+      
+      <h4 >Introduction</h4>
+        <p>This Cyber Security course will navigate you through the foundations and skills necessary to build a successful Cyber Security career. In addition to security objectives basics like confidentiality, integrity, non-repudiation and authentication you also get to exploit the vulnerabilities. By using secure systems, and design methodology, you will also learn about primary security breaches that occurred over the years and the building of countermeasures for the same.</p><br>
+
+        <img class="img-responsive center-block" src="{{url_for('static', filename='cyber2.png')}}"><br>
+        <h4 >About Course</h4>
+
+        <p>Because IT Security is still a relatively young discipline, universities and colleges are still figuring out which is the best approach for their degrees. Study programmes and curricula in Cyber Security are different.
+
+        Some might focus more on programming, while others place more emphasis on digital forensics, security policies, or broad aspects of Cyber Security. According to the NSA’s 2014 Academic Criteria, IT Security degrees should include classes on:<p></br>
+
+        <ul class="list-group">
+        <li class="list-group-item">Basic Data Analysis</li>
+        <li class="list-group-item">Basic Scripting or Introductory Programming</li>
+        <li class="list-group-item">Cyber Defense</li>
+        <li class="list-group-item">Cyber Threats</li>
+        <li class="list-group-item">Fundamental Security Design Principles</li>
+        <li class="list-group-item">Information Assurance Fundamentals</li>
+        <li class="list-group-item">Intro to Cryptography</li>
+        <li class="list-group-item">IT Systems Components</li>
+        <li class="list-group-item">Networking Concepts</li>
+        <li class="list-group-item">Policy, Legal, Ethics, and Compliance</li>
+        <li class="list-group-item">System Administration</li>
+        <li class="list-group-item">Networking Concepts</li>
+        </ul><br>
+        
+        <p>More advanced modules, especially those at Master’s degree level, can help you specialise in complex topics like Forensic Accounting, Cloud Computing, Cryptography, etc.</p>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock body%}

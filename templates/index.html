@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title%}
+
+
+
+{% block body%}
+
+
+<section id="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="promo-title">PHOENIX ACADEMY</p>
+        <p>You can take free classes for in-demand languages like Python, JavaScript and C++, applying for official certification to take your programming career to the next level. We also cover growing skills like pentesting, full stack and MEAN stack development, and database management.</p>
+        <a href="#"><button type="button" class="btn btn-outline-light" >Watch Demos</button></a>
+      </div>
+      <div class="col-md-6 text-center">
+        <div class="banner-img">
+          <img src="{{url_for('static', filename='bg_it.png')}}" class="img-fluid" ></img>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="{{url_for('static', filename='wave1.png')}}" class="bottom-img">
+</section>
+
+
+
+<section id="courses">
+  <div class="container text-center">
+  <h1>TOP COURSES FROM US</h1>
+    <div class="row text-center">
+      <div class="col-md-6 courses">
+        <a href="/webdev"><img src="{{url_for('static', filename='web_d.jpg')}}" class="course-img" alt="image"></a>
+        <h4 >Web Development</h4>
+        <p>Go from no-code to an in-demand junior web developer, at a fraction of the cost of a bootcamp. Start with the front-end by learning HTML, CSS, and JavaScript. Then, master the back-end and APIs to round out your full-stack skills.</p>
+      <a href="/webdev"><button type="button" class="btn btn-outline-dark btn-sm">View Details</button></a>
+      </div>
+      <div class="col-md-6 courses">
+        <a href="/datascience"><img src="{{url_for('static', filename='data_s.png')}}" class="course-img" alt="image"></a>
+        <h4>Data Science</h4>
+        <p>When learning data science online it’s important to not only get an intuitive understanding of what you’re actually doing, but also to get sufficient practice using data science on unique problems.</p>
+        <a href="/datascience"><button type="button" class="btn btn-outline-dark btn-sm">View Details</button></a>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-6 courses">
+        <a href="/cybersecurity"><img src="{{url_for('static', filename='cyber2.png')}}" class="course-img" alt="image"></a>
+        <h4>Cyber Security</h4>
+        <p>Whether you want to keep yourself safe while browsing the internet, or brush up on your penetration testing and network security analysis skills, Udemy offers a broad range of cyber security courses taught by top-rated and approachable instructors.</p>
+        <a href="/cybersecurity"><button type="button" class="btn btn-outline-dark btn-sm">View Details</button></a>
+      </div>
+      <div class="col-md-6 courses">
+        <a href="/testing"><img src="{{url_for('static', filename='soft_test.png')}}" class="course-img" alt="image"></a>
+        <h4>Software Testing</h4>
+        <p>Software testing is nothing but an art of finding the defect in software to ensure that its functionality of software matches the requirement of the client. Software testing is a process of verifying and validating the software developed by Software developer by checking actual results vs expected results.</p>
+        <a href="/testing"><button type="button" class="btn btn-outline-dark btn-sm">View Details</button></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% endblock body%}

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}About Us{% endblock title%}
+
+
+
+{% block body%}
+
+<section id="subbanner">
+  <div class="container">
+    <div class="row">
+      
+      </div>
+    </div>
+  </div>
+  <img src="{{url_for('static', filename='wave1.png')}}" class="bottom-img">
+</section>
+
+<section id="course-content">
+  <div class="container my-4">
+    <div class="row">
+    <div class="col-md-12 text-center">
+    <p class="promo-title">About Us</p>
+    <img class="img-responsive center-block" src="{{url_for('static', filename='phoenix_logo1.png')}}"><br>
+      <h4>Phoenix Academy</h4>
+        </div>
+      <div class="col-md-12 ">
+
+
+        <p>People tend to think that "About Us" pages have to sound formal to gain credibility and trust. But most people find it easier to trust real human beings, rather than a description that sounds like it came from an automaton. Trying to sound too professional on your "About Us" page results in stiff, “safe” copy and design -- the perfect way to make sure your company blends in with the masses<p></br>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock body%}

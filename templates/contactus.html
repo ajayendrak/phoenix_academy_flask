@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}Contact Us{% endblock title%}
+
+
+
+{% block body%}
+
+<section id="subbanner">
+  <div class="container">
+    <div class="row">
+      
+      </div>
+    </div>
+  </div>
+  <img src="{{url_for('static', filename='wave1.png')}}" class="bottom-img">
+</section>
+
+<section id="course-content">
+  <div class="container my-4">
+    <div class="row">
+    <div class="col-md-12 text-center">
+    <p class="promo-title">Contact Us</p>
+
+    <div class="row">
+    <div class="col-md-12 text-center">
+            <form method="POST" action="" class="p-3 form-signin">
+          <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Email</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email">
+          </div>
+          <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Name">
+          </div>
+          <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Phone</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Phone">
+          </div>
+          <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Message</label>
+              <textarea type="textarea" class="form-control" id="formGroupExampleInput2" placeholder="Message"></textarea>
+          </div>
+          <div class="mb-3">
+              <button type="button" class="btn btn-outline-dark">Submit</button>
+          </div>
+        </form>
+    </div>
+    </div>
+
+    </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+{% endblock body%}

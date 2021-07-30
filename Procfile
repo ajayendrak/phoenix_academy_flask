@@ -1,0 +1,1 @@
+web: gunicorn phoenix_app:app

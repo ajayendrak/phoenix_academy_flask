@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Web Development{% endblock title%}
+
+
+
+{% block body%}
+
+<section id="subbanner">
+  <div class="container">
+    <div class="row">
+      
+      </div>
+    </div>
+  </div>
+  <img src="{{url_for('static', filename='wave1.png')}}" class="bottom-img">
+</section>
+
+
+
+<section id="course-content">
+  <div class="container my-4">
+    <div class="row">
+    <div class="col-md-12 text-center">
+      <p class="promo-title">Web Development</p>
+        </div>
+      <div class="col-md-12 ">
+      
+      <h4 >Introduction</h4>
+        <p>The internet cuts across all walks of life. There are, of course, very successful companies like Google, Facebook and Twitter whose products are entirely web-based. But even traditional businesses need a strong web presence—as Marc Andreessen put it, "Software is eating the world." No surprise, then, that skilled web developers are in great demand!</p><br>
+
+        <img class="img-responsive center-block" src="{{url_for('static', filename='web_d.jpg')}}"><br>
+        <h4 >About Course</h4>
+        <p>This learning path provides an overview of front-end and back-end technologies, as well as essential developer tools for troubleshooting, performance optimization, and collaboration. It covers the basics of web internals, HTML, CSS, Javascript, Python, Django, MySQL, Chrome Dev Tools, and Git. At the end of this course, you should be able to build a web application from scratch.</p>
+        
+        <p>The challenge with learning web development is that it is not one beast, but many! Being a good web developer requires you to understand the many different components of a web application and how they interact with each other. The goal of this learning path is not to train you in the best technologies (in fact, what’s best is rather subjective depending on the application), but to pick one set that is powerful, yet simple to learn and gives you a flavour of how the various components interact.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock body%}
