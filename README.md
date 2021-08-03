@@ -1,6 +1,6 @@
 # phoenix_academy_flask
 
-Introduction- This is a static webapp written in python using Flask framework. Its website of one of the IT courses training institute. This app does not have any complex coding. 
+Introduction- This is a static webapp written in python using Flask framework. This is website of IT courses training institute. This app does not have any complex coding. 
 The main purpose of this project to focus more on frontend, web deesigning, user interface, color combinations, HTML, CSS, Bootstrap and Flask.
 
 Live link- https://phoenix-ajayendra.herokuapp.com/
