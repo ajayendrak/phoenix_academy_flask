@@ -6,7 +6,6 @@ The main purpose of this project to focus more on frontend, web deesigning, user
 Live link- https://phoenix-ajayendra.herokuapp.com/
 
 Technologies used-
-
 1. Python
 2. Flask
 3. HTML
@@ -14,8 +13,6 @@ Technologies used-
 5. Bootstrap
 6. Heroku
 
-
 Directory folders- 
-
-Main App- phoenix_app.py
-static and templates folders.
+1. Main App- phoenix_app.py
+2. static and templates folder
